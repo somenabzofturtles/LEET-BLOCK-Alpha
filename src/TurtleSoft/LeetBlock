@@ -1,9 +1,9 @@
 <?php
 /* 
- * Plugin developed by TurtleSoft for LEET.
- * Suggestions are not accepted because of school
+ * Plugin developed by SURVA.ml Dev Team.
+ * Homepage: www.surva.ml - Mail: support@surva.ml
  */
-namespace TurtleSoft\LeetBlock;
+namespace jjmc\BadWordBlocker;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
@@ -11,7 +11,7 @@ class BadWordBlocker extends PluginBase implements Listener {
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->saveDefaultConfig();
-        $this->getServer()->getLogger()->info("§3[LEET-Block] §aEnabled successfully");
+        $this->getServer()->getLogger()->info("§3[BadWordList] §aEnabled successfully");
     }
     
     public function contains($wort, array $liste) {
