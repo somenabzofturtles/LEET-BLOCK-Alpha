@@ -1,12 +1,16 @@
 <?php
+
 /* 
- * Plugin developed by SURVA.ml Dev Team.
- * Homepage: www.surva.ml - Mail: support@surva.ml
+ * Plugin developed by TurtleSoft
+ * Some bug fixes! Realeased!
  */
-namespace jjmc\BadWordBlocker;
+
+namespace TurtleSoft\LeetBlock;
+
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
+
 class BadWordBlocker extends PluginBase implements Listener {
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
