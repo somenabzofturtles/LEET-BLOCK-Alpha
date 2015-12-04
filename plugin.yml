@@ -3,4 +3,4 @@ main: TurtleSoft\LeetBlock\LeetBlock
 version: 1.0.0-LEET
 api: 1.0.0
 author: TurtleSoft
-description: a plugin which blocks innapropriate words
+description: a plugin which blocks innapropriate words for LEET.CC
