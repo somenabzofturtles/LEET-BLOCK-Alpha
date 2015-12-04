@@ -3,7 +3,7 @@
  * Plugin developed by TurtleSoft for LEET.
  * Suggestions are not accepted because of school
  */
-namespace TurtleSoft\TurtleSoft;
+namespace TurtleSoft\LeetBlock;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
