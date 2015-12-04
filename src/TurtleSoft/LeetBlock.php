@@ -15,7 +15,7 @@ class BadWordBlocker extends PluginBase implements Listener {
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->saveDefaultConfig();
-        $this->getServer()->getLogger()->info("§3[BadWordList] §aEnabled successfully");
+        $this->getServer()->getLogger()->info("§3[LeetBlock] §aEnabled successfully");
     }
     
     public function contains($wort, array $liste) {
