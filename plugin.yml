@@ -1,5 +1,5 @@
 name: LeetBlock
-main: TurtleSoft\LeetBlock\LeetBlock
+main: TurtleSoft\LeetBlock
 version: 1.0.0-LEET
 api: 1.0.0
 author: TurtleSoft
